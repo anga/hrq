@@ -5,7 +5,7 @@ require 'hrq/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hrq"
-  spec.version       = HRQ::VERSION
+  spec.version       = Hrq::VERSION
   spec.authors       = ["Andres B."]
   spec.email         = ["andres.b.dev@gmail.com"]
   spec.summary       = %q{Human readable query}
@@ -21,5 +21,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.1"
-  spec.add_development_dependency "rspec-mock", "~> 3.1"
 end
