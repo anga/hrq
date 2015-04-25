@@ -15,7 +15,9 @@ RSpec.describe 'Basic usages' do
         Hrq.add_template File.join(Dir.pwd, '..', 'templates', 'basic.rb')
       end
 
-      it 'should allows to translate a basic query'
+      it 'should allows to translate a basic query' do
+        expect(Hrq.translate('I want all users')).to eq('SELECT users.* FROM users;')
+      end
     end
   end
 end
