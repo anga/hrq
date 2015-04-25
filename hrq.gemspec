@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andres B."]
   spec.email         = ["andres.b.dev@gmail.com"]
   spec.summary       = %q{Human readable query}
-  spec.description   = %q{HRQ allows you to write human readable queries and translate them into real SQL}
+  spec.description   = %q{HRQ allows you to write human readable queries and translate them into real SQL. WIP, this does not work yet}
   spec.homepage      = ""
   spec.license       = "MIT"
 
