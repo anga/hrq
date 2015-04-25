@@ -1,0 +1,1 @@
+require "hrq/version"
