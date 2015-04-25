@@ -1,6 +1,6 @@
 # Hrq
 
-TODO: Write a gem description
+HRQ allows you to write human readable queries and translate them into real SQL. WIP, this does not work yet.
 
 ## Installation
 
